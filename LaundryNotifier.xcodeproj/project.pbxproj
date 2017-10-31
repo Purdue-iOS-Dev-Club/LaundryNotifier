@@ -12,6 +12,10 @@
 		C72C8E5A1FA92BA900B16561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72C8E581FA92BA900B16561 /* Main.storyboard */; };
 		C72C8E5C1FA92BA900B16561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C72C8E5B1FA92BA900B16561 /* Assets.xcassets */; };
 		C72C8E5F1FA92BA900B16561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72C8E5D1FA92BA900B16561 /* LaunchScreen.storyboard */; };
+		C72C8E701FA92E2800B16561 /* LaundryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C8E6C1FA92E2700B16561 /* LaundryViewController.swift */; };
+		C72C8E711FA92E2800B16561 /* LaundryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C8E6D1FA92E2700B16561 /* LaundryDetailViewController.swift */; };
+		C72C8E721FA92E2800B16561 /* LaundryWasherDryerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C8E6E1FA92E2700B16561 /* LaundryWasherDryerViewController.swift */; };
+		C72C8E731FA92E2800B16561 /* LaundryWasherDryerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72C8E6F1FA92E2800B16561 /* LaundryWasherDryerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C72C8E5B1FA92BA900B16561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C72C8E5E1FA92BA900B16561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C72C8E601FA92BA900B16561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C72C8E6C1FA92E2700B16561 /* LaundryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaundryViewController.swift; sourceTree = "<group>"; };
+		C72C8E6D1FA92E2700B16561 /* LaundryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaundryDetailViewController.swift; sourceTree = "<group>"; };
+		C72C8E6E1FA92E2700B16561 /* LaundryWasherDryerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaundryWasherDryerViewController.swift; sourceTree = "<group>"; };
+		C72C8E6F1FA92E2800B16561 /* LaundryWasherDryerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaundryWasherDryerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				C72C8E541FA92BA900B16561 /* AppDelegate.swift */,
 				C72C8E561FA92BA900B16561 /* ViewController.swift */,
+				C72C8E6D1FA92E2700B16561 /* LaundryDetailViewController.swift */,
+				C72C8E6C1FA92E2700B16561 /* LaundryViewController.swift */,
+				C72C8E6F1FA92E2800B16561 /* LaundryWasherDryerCell.swift */,
+				C72C8E6E1FA92E2700B16561 /* LaundryWasherDryerViewController.swift */,
 				C72C8E581FA92BA900B16561 /* Main.storyboard */,
 				C72C8E5B1FA92BA900B16561 /* Assets.xcassets */,
 				C72C8E5D1FA92BA900B16561 /* LaunchScreen.storyboard */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72C8E731FA92E2800B16561 /* LaundryWasherDryerCell.swift in Sources */,
+				C72C8E701FA92E2800B16561 /* LaundryViewController.swift in Sources */,
 				C72C8E571FA92BA900B16561 /* ViewController.swift in Sources */,
+				C72C8E721FA92E2800B16561 /* LaundryWasherDryerViewController.swift in Sources */,
 				C72C8E551FA92BA900B16561 /* AppDelegate.swift in Sources */,
+				C72C8E711FA92E2800B16561 /* LaundryDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
